@@ -1,2 +1,35 @@
-streamlit
-langchain
+# Core LangChain and LangGraph Dependencies
+langgraph==0.2.45
+langchain==0.3.14
+langchain-openai==0.2.14
+langchain-community==0.3.14
+
+# LLM Provider
+openai==1.59.5
+
+# Data Collection Tools
+yfinance==0.2.49
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# Structured Output
+pydantic==2.10.4
+pydantic-core==2.27.2
+
+# Streamlit UI
+streamlit==1.41.1
+
+# Utilities
+python-dotenv==1.0.1
+pandas==2.2.3
+numpy==2.2.1
+
+# Optional: For better web scraping
+selenium==4.27.1  # If you want browser automation
+feedparser==6.0.11  # For RSS feeds
+
+# Development Tools (Optional)
+jupyter==1.1.1
+notebook==7.3.2
+ipython==8.31.0
